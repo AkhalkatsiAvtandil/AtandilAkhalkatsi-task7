@@ -61,9 +61,82 @@ main {
   background-position: center;
   background-size: cover;
 }
+
 .animated {
   display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  animation-name: animated;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animated {
+  0% {
+    top: 40%;
+    left: 60%;
+  }
+  25% {
+    top: 30%;
+    left: 50%;
+  }
+  50% {
+    top: 20%;
+    left: 40%;
+  }
+  75% {
+    top: 30px;
+    left: 35;
+  }
+  100% {
+    top: 40%;
+    left: 60%;
+  }
 }
 .animatedlogo {
   display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  animation-name: animatedlogo;
+  animation-duration: 5s;
+  animation-delay: 1.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animatedlogo {
+  0% {
+    top: 60%;
+    left: 30%;
+  }
+  25% {
+    top: 70%;
+    left: 40%;
+  }
+  50% {
+    top: 80%;
+    left: 50%;
+  }
+  75% {
+    top: 65%;
+    left: 45%;
+  }
+  100% {
+    top: 60%;
+    left: 40%;
+  }
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
