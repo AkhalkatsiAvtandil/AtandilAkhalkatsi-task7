@@ -11,3 +11,43 @@
 img {
   max-width: 100%;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
+header nav,
+header li {
+  display: inline-block;
+  margin-left: 18px;
+  vertical-align: middle;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: orangered;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  z-index: 1000;
+}
+header nav a {
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 2px dashed aqua;
+  border-top: 2px dashed aqua;
+  padding-bottom: 7px;
+  transition: all 0.4s ease-in-out;
+}
+
+header nav a:hover {
+  color: aqua;
+  border-color: #000;
+}
