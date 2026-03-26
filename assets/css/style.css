@@ -11,6 +11,7 @@
 img {
   max-width: 100%;
 }
+
 a {
   text-decoration: none;
   color: #000;
@@ -38,6 +39,7 @@ header {
   padding: 5px 0;
   z-index: 1000;
 }
+
 header nav a {
   font-weight: bold;
   font-size: 25px;
@@ -50,4 +52,18 @@ header nav a {
 header nav a:hover {
   color: aqua;
   border-color: #000;
+}
+main {
+  background-image: url("../img/3.jpg");
+  height: 700px;
+  max-width: 1000px;
+  z-index: 999;
+  background-position: center;
+  background-size: cover;
+}
+.animated {
+  display: inline-block;
+}
+.animatedlogo {
+  display: inline-block;
 }
